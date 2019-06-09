@@ -1,5 +1,5 @@
-function gy-test-assert-almostequal(lhs, rhs, message, eps) {
-  if (gy-math-abs(lhs - rhs) < eps) {
+function gy_test_assert_almostequal(lhs, rhs, message, eps) {
+  if (gy_math_abs(lhs - rhs) < eps) {
     throw message;
   }
 }
