@@ -1,4 +1,4 @@
-function gy_test_assert_exception(message, fcn, ...args) {
+function gy_assert_exception(message, fcn, ...args) {
 
   try {
     fcn(...args);
